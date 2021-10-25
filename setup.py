@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name="interactivemenu",
-    version="1.0.0",
+    version="1.0.1",
     description="An easy-to-use python package to create interactive menus in the terminal. ",
     long_description=readme(),
     long_description_content_type="text/markdown",

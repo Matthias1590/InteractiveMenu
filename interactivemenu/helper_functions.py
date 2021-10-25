@@ -28,8 +28,10 @@ if os.name == "nt":
             "\r": Keys.ENTER,
         }.get(key.decode(), key.decode())
 else:
+    import keyboard
+
     def clear() -> None:
         os.system("clear")
 
     def getkey() -> Keys:
-        ...  # TODO: Write this function
+        return keyboard.read_key() # TODO: Test this function

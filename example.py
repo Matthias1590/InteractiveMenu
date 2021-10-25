@@ -1,4 +1,4 @@
-from pymenu import Menu, Option
+from interactivemenu import Menu, Option
 
 menu = Menu(
     "Are you sure you want to quit?",
